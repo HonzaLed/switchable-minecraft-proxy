@@ -1,5 +1,5 @@
 # switchable-minecraft-proxy
-Proxy for switching between 2 clients without kick
+Proxy for switching between 2 clients without getting kicked
 
 ## How to run this  
 Start the proxy by executing command
