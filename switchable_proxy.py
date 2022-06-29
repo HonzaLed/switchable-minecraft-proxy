@@ -96,8 +96,11 @@ class Proxy(Thread):
 
             self.p2s.start()
 
-
-server = Proxy('0.0.0.0', sys.argv[1], int(sys.argv[2]))
+try:
+    port=int(sys.argv[2])
+except:
+    port=25565
+server = Proxy('0.0.0.0', sys.argv[1], port)
 server.start()
 
 while True:
