@@ -8,4 +8,4 @@ python3 switchable_proxy.py <server IP> <server port>
 ```
 
 You can then connect with first client at address `127.0.0.1:<server port>` and second client at address `127.0.0.1:<server port+1>`  
-**Note that you must connect them very fastly after each other**
+**Note that you must connect them very quickly after each other**
